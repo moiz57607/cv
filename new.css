@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    pad: 0px;
+    box-sizing: border-box;
+}
+                                /* individual elements */
+/* h1{
+
+}                                 */
+h2{
+    background-color:#76bfdd;
+    border-radius: 23px;
+    text-align: center;
+} 
+h3{
+    text-align: center;
+}                               
+
+                                       /* main */
+#main{
+    width: 70%;
+    margin: auto;
+}
+#pic img{
+     height: 100px;
+    width: 100px;
+}
+/* #intro{
+    background-color: aqua;
+ } */
+ #top{
+     background-color: #76bfdd ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.parent{
+    display: flex;
+}                                       
+                                       /* left        */   
+.left{
+    height: auto;
+    background-color: #d4e6ed;
+}                                                                          
+/* #contact{
+    background-color: red;
+}
+#skills{
+    background-color: yellow;
+}
+#languages{
+     background-color: green;
+}
+#hobbies{
+    background-color: blue;
+} */
+.left-child{
+    margin-top: 45px;
+    padding: 0px 5px;
+}
+.center{
+    text-align: center;
+}
+                                       /* right */
+.right{
+    content:"";
+   background: url("bue\ textuure\ 1.jpg"); 
+}                                      
+.right-element{
+    margin-top: 40px;
+}
+
+/* summary */
+ /* #summary{
+      background-color: palevioletred; 
+ } */
+ /* .education */
+ #parent-edu{
+    display: flex;
+    flex-direction: column;
+ }
+ .education{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+ }  
+ /* experience */
+ .experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .item-2{
+    padding-right:6rem;
+ }
+ /* project */
+ /* #proj{
+    background-color: brown;
+ } */
+
+
+                            
